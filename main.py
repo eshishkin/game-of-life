@@ -3,6 +3,11 @@ import random as rnd
 from copy import deepcopy
 
 
+# ToDo ES: create a separate class that holds all hyperparameters (size, max neighbours)
+# ToDo ES: create a separate classes that represent a cell, universe, etc.
+# ToDo ES: add conditions that check whether the game is over or not
+# ToDo ES: vizualization (???)
+
 def printBoard(board):
     for row in board:
         print(row)
